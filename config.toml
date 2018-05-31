@@ -1,0 +1,30 @@
+name = "Universal"
+license = "MIT"
+licenselink = "https://github.com/devcows/hugo-universal-theme/blob/master/LICENSE"
+description = "A port of the Universal theme"
+homepage = "//github.com/devcows/hugo-universal-theme"
+tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
+features = ["blog", "themes", "disqus", "minimal", "responsive"]
+min_version = 0.15
+
+baseurl = "https://vietopeninfra.github.io/"
+title = "ServiceMesher"
+theme = "hugo-universal-theme"
+languageCode = "zh"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "vn"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Code highlight
+pygmentsUseClasses = false
+pygmentCodeFences = true
+
+
+[author]
+    name = "adrianmo"
+    homepage = "//github.com/adrianmo"
+
+# If Porting existing theme
+[original]
+    author =  "bootstrapious"
+    homepage = "http://bootstrapious.com/p/universal-business-e-commerce-template"
